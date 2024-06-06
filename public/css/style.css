@@ -1,0 +1,127 @@
+*{
+    font-family: 'Roboto', sans-serif; padding: 0px; margin: 0px; list-style: none; border: 0px; -o-box-sizing: border-box; -ms-box-sizing: border-box; -moz-box-sizing: border-box; -khtml-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    padding: 20px 0 5px;
+    border-bottom: 1px solid #cccccc;
+}
+
+header ul{
+    padding-left: 0rem !important;
+    display: flex;
+    justify-content: center;
+}
+
+header ul li{
+    display: flex;
+    margin: 0 15px;
+
+    a{text-decoration: none; color: #222222;}
+}
+
+.msg {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+#search-container {
+    background-color: #eeeeee;
+    padding: 40px 0;
+
+    h3 {
+        text-align: center;
+        color: #222222;
+        margin-bottom:20px;
+    }
+    form {
+        width: 40%;
+        margin: 0 auto;
+    }
+}
+
+#posts-container {
+    padding: 60px;
+}
+
+#posts-container h4 {
+    margin-bottom: 15px;
+}
+
+#posts-container .previa {
+    padding: 10px;
+    border-radius:10px;
+    border: 1px solid #cccccc;
+
+    a{font-size: 14px;}
+}
+
+#posts-container .previa img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#posts-container .previa .card-data {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #999999;
+}
+
+#posts-container .previa .card-titulo {
+    color: #333333;
+    margin-bottom:25px;
+}
+
+.form-editar label{
+    font-weight: bold;
+}
+.form-editar input{
+    font-size: 14px;
+}
+
+#image-container,
+#informacao {
+    margin-top: 30px;
+}
+
+#image-container img {
+    border-radius: 10px;
+}
+
+#informacao p {
+    margin: 0;
+    font-size: 14px;
+}
+
+#description {
+    margin-top: 30px;
+}
+
+.dashboard-posts form {
+    display: inline-block;
+}
+
+.img-preview {
+    width: 100px;
+    margin-top: 20px;
+}
+
+#commentarios{
+    margin-top: 20px;
+    padding-left: 0rem !important;
+}
+#commentarios li{
+    background: #dddddd;
+    padding: 5px;
+    margin-bottom: 5px;
+}
